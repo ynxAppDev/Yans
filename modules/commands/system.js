@@ -79,5 +79,61 @@ STACK: ${errors[error].stack}`,
         i.messageID,
       );
     }
+    await new Promise((r) => setTimeout(r, 1000));
+    await box.edit(
+      `${system}
+📥 | Saving changes...`,
+      i.messageID,
+    );
+    const { commands: clientCommands, events: clientEvents } = global.client;
+    const commandsLength = [...new Set(clientCommands.keys())].length;
+    const eventsLength = [...new Set(clientEvents.keys())].length;
+    await new Promise((r) => setTimeout(r, 1000));
+    await box.edit(
+      `${system}
+🟢 | Loaded All ${commandsLength} commands and ${eventsLength} events!`,
+      i.messageID,
+    );
+    return;
+  } else if (args[0] === "send") {
+    const filepath = __dirname + "/" + args[1];
+    if (!args[1]) {
+      return box.reply(
+        `❌ Please enter the file name to send; it should end with .js`,
+      );
+    }
+    if (!fs.existsSync(filepath)) {
+      return box.reply(`❌ File not found:
+${filepath}`);
+    }
+    const file = fs.readFileSync(filepath, "utf-8");
+    return box.reply(`// ${args[1]}
+
+${file}`);
+  } else if (args[0] === "delete") {
+    const filepath = __dirname + "/" + args[1];
+    if (!args[1]) {
+      return box.reply(
+        `❌ Please enter the file name to delete; it should end with .js`,
+      );
+    }
+    if (!fs.existsSync(filepath)) {
+      return box.reply(`❌ File not found:
+${filepath}`);
+    }
+    const file = fs.readFileSync(filepath, "utf-8");
+    fs.unlinkSync(filepath);
+    return box.reply(`// Successfully deleted ${args[1]}!
+
+${file}`);
+  } else if (args[0] === "list") {
+    return box.reply(`${system}
+✅ All commands:
+
+${fs.readDirSync("modules/commands").join("\n")}
+
+✅ All events:
+
+${fs.readDirSync("modules/events").join("\n")}`);
   }
 };
