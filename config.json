@@ -1,9 +1,9 @@
 {
   "version": "1.7.2",
   "language": "en",
-  "email": "",
-  "password": "",
-  "useEnvForCredentials": false,
+  "email": "emailKey",
+  "password": "passKey",
+  "useEnvForCredentials": true,
   "envGuide": "When useEnvForCredentials enabled, it will use the process.env key provided for email and password, which helps hide your credentials, you can find env in render's environment tab, you can also find it in replit secrets.",
   "DeveloperMode": true,
   "autoCreateDB": true,
@@ -38,6 +38,7 @@
       "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
     }
   },
+  "IGNORE_ACCOUNT_ERROR": true,
   "APPSTATEPATH": "appstate.json",
   "DEL_FUNCTION": false,
   "ADD_FUNCTION": true,
