@@ -1,0 +1,128 @@
+[
+    {
+        "key": "sb",
+        "value": "Zt9AZmdQzfJfIHlWnB43zxj2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.913Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "datr",
+        "value": "auBAZgoSW74vcXBgQXRcoDSw",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "1.7004296779632568",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "wd",
+        "value": "423x751",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "fr",
+        "value": "00zyjKKyf4ppEN2tA.AWWTEL-dsq6GpR-e8v5WXOMjIN8.BmQOBq..AAA.0.0.BmQcIJ.AWV14IJ-0j8",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "c_user",
+        "value": "100090854026836",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "xs",
+        "value": "20%3Af-RDHT328I2XXg%3A2%3A1715585545%3A-1%3A7444",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "zsh",
+        "value": "ASTlE5rDBU_1CfD7_e6Y2GzM6lGqwNFxnYxvzSYHnR-c74nzKIC9se45nIEx88HVUpYt3SIomJFtMln_KKmTtPX8nhYnfcZd-PCm9e7FfZrG0lWa0nhIwrxpxvMDTAOwa6j0E1pK1BDjlBhMU_56pjjyMD1xMn5fBBgpD-dqyvdYfhbTgai-uQ1O4LbA04N1PSdBOtIYevC8Bi3Gc3SgutX_Lt_qCTPETK8FERCIwGpPPk_nVST8ZMsqmkE0kupuBkZJU9Zasm2uM5g3lpBJRv_aTH0jjOVKJQw3FuNGL5IUNyr_AaWqwhHvJ_PD3vFkNg",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100620081%3BT%3A28593092",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2498%3Btimestamp%3A1715585552",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B639x360x1.7004296779632568",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-13T07:33:42.924Z",
+        "lastAccessed": "2024-05-13T07:33:42.924Z"
+    }
+      ]
